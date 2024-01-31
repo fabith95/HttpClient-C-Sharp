@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClient-C-Sharp", "HttpClient-C-Sharp.csproj", "{774E419F-F434-4159-B7A3-0CA97187DDCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{774E419F-F434-4159-B7A3-0CA97187DDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{774E419F-F434-4159-B7A3-0CA97187DDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{774E419F-F434-4159-B7A3-0CA97187DDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{774E419F-F434-4159-B7A3-0CA97187DDCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C191C6FA-6E91-436B-9781-9F6E1907ABCC}
+	EndGlobalSection
+EndGlobal

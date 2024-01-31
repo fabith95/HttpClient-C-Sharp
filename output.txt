@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta property="og:locale" content="en-US">
+<meta name="description" content="Free Online QA Automation Tools Tutorial. Framework Development tutorials in Java and C-Sharp language. Online and Corporate Trainings">
+<meta property="og:description" content="Free Online QA Automation Tools Tutorial. Framework Development tutorials in Java and C-Sharp language. Online and Corporate Trainings">
+<meta name="twitter:description" content="Free Online QA Automation Tools Tutorial. Framework Development tutorials in Java and C-Sharp language. Online and Corporate Trainings">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" />
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="8ba08e3c31f4c85933d4d8bc-|49"></script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" media="print" onload="this.media='all'" />
+<link rel="shortcut icon" type="image/webp" href="/static/images/logo/Favicon.webp" />
+<title>Tools QA</title>
+<link rel="stylesheet" href="/static/css/landing-page.css">
+<script data-ad-client="ca-pub-5889298451609146" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="8ba08e3c31f4c85933d4d8bc-text/javascript">
+        </script>
+<script type="8ba08e3c31f4c85933d4d8bc-text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-K5TWNW8');
+            </script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VB4JVJRDPP" type="8ba08e3c31f4c85933d4d8bc-text/javascript"></script>
+<script type="8ba08e3c31f4c85933d4d8bc-text/javascript">
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-VB4JVJRDPP');
+            </script>
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5TWNW8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<header>
+<nav class="navbar">
+<div class="container-fluid">
+<div class="row align-items-center">
+<a class="navbar__brand col-auto order-0" href="/">
+<script type="text/javascript" style="display:none">
+//<![CDATA[
+window.__mirage2 = {petok:"ZEIWj36pglnQNIA6mQZgTLv1PoBQgrl41.feEeM2BtI-1800-0"};
+//]]>
+</script>
+<script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"></script>
+<img data-cfsrc="/static/images/logo/tools-qa.png" alt="Tools QA" class="tools-qa-header__logo" style="display:none;visibility:hidden;"><noscript><img src="/static/images/logo/tools-qa.png" alt="Tools QA" class="tools-qa-header__logo"></noscript>
+</a>
+<div class="navbar__actions col-auto ml-auto d-block d-lg-none order-3">
+<button class="btn btn-icon" aria-label="Search"><i class="icon-search"></i></button>
+<button id="hamburger-menu" class="btn btn-icon" aria-label="Menu"><i class="icon-Union"></i>
+</button>
+</div>
+<div class="navbar__search--xs order-3 col-12">
+<form action="/search" method="GET" autocomplete="off" id="search-form" class="mb-3">
+<input type="text" class="navbar__search--input w-100" placeholder="Search" aria-label="Search" name="keyword">
+<icon class="icon-search"></icon>
+</form>
+</div>
+<div class="col-auto flex-lg-grow-1 flex-xl-grow-0 d-none d-lg-flex order-4 navbar__links-and-search order-lg-2 ml-lg-auto">
+<div class="row align-items-center flex-grow-1">
+<div class="col-auto">
+<ul class="navbar__links d-none d-lg-flex">
+<li><a href="/">Home</a></li>
+<li><a href="/selenium-training?q=headers">Selenium Training</a></li>
+<li><a href="https://demoqa.com" rel="noopener" target="_blank">Demo Site</a></li>
+<li><a href="/about">About</a></li>
+</ul>
+</div>
+<div class="navbar__search col-auto  ml-lg-auto ml-xl-0">
+<form action="/search" method="GET" autocomplete="off" id="search-form">
+<input type="text" class="navbar__search--input" placeholder="Search" aria-label="Search" name="keyword">
+<icon class="icon-search"></icon>
+</form>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-auto order-3 order-lg-1">
+<a class="navbar__tutorial-menu">
+<span class="navbar__tutorial-menu--menu-bars">
+<span class="bar-long"></span>
+<span class="bar-long"></span>
+<span class="bar-short"></span>
+</span>
+<span class="navbar__tutorial-menu--text">Tutorials</span>
+</a>
+</div>
+</div>
+</div>
+</nav>
+</header> <div class="landing-page">
+<div class="banners">
+<div class="container-fluid">
+<div class="row align-items-sm-center">
+<div class="col-12 col-md-6 order-md-1">
+<img class="learner" src="/static/images/svgs/learner.svg" />
+</div>
+<div class="col-12 col-md-6 col-xl-5 order-md-0 new-training justify-content-sm-center">
+<div class="new-training__heading">Selenium Online Trainings</div>
+<div class="new-training__starting">Training Batch starts from 04-Feb-2022</div>
+<div class="new-training__why">We are the leaders in providing quality trainings of Selenium
+Webdriver to
+Corporates and individuals
+</div>
+<div class="row align-items-center">
+<div class="col col-sm-6 col-md-7">
+<a href="/selenium-training?q=banner#enroll-form" class="btn btn-primary-shadow btn-block">Enroll
+Yourself</a>
+</div>
+<div class="col-auto pl-0 pl-sm-1 col-md-5 col-sm-6 text-center">
+<a href="/selenium-training?q=banner" class="new-training__read-more">Read More</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="banners__circle"></div>
+</div>
+<div class="latest-tutorials-and-top-courses">
+<div class="container-fluid">
+<div class="row">
+<div class="col-12 categories">
+<a class="category" href="https://www.toolsqa.com/testrigor/testrigor-tutorial">
+<div class="category__icon">
+<div class="category__icon--wrapper">
+<img data-cfsrc="/static/images/logo/testRigor.png" alt="testRigor" style="display:none;visibility:hidden;"><noscript><img src="/static/images/logo/testRigor.png" alt="testRigor"></noscript>
+</div>
+</div>
+<div class="category__name-and-learn">
+<div class="category__name">testRigor</div>
+<div class="category__start-learning">
+Start Learning
+<icon class="icon icon-arrow-thin-right"></icon>
+</div>
+</div>
+</a>
+<a class="category" href="/katalon-studio-tutorial">
+<div class="category__icon">
+<div class="category__icon--wrapper">
+<img data-cfsrc="/static/images/logo/katalon.png" alt="Katalon" style="display:none;visibility:hidden;"><noscript><img src="/static/images/logo/katalon.png" alt="Katalon"></noscript>
+</div>
+</div>
+<div class="category__name-and-learn">
+<div class="category__name">Katalon</div>
+<div class="category__start-learning">
+Start Learning
+<icon class="icon icon-arrow-thin-right"></icon>
+</div>
+</div>
+</a>
+<a class="category" href="/software-testing/istqb-foundation-level/">
+<div class="category__icon">
+<div class="category__icon--wrapper">
+<img data-cfsrc="/static/images/logo/istqb.png" alt="Test Project" style="display:none;visibility:hidden;"><noscript><img src="/static/images/logo/istqb.png" alt="Test Project"></noscript>
+</div>
+</div>
+<div class="category__name-and-learn">
+<div class="category__name">ISTQB</div>
+<div class="category__start-learning">
+Start Learning
+<icon class="icon icon-arrow-thin-right"></icon>
+</div>
+</div>
+</a>
+<a class="category" href="/agile/agile-scrum-tutorial/">
+<div class="category__icon">
+<div class="category__icon--wrapper">
+<img data-cfsrc="/static/images/logo/scrum.png" alt="Test Project" style="display:none;visibility:hidden;"><noscript><img src="/static/images/logo/scrum.png" alt="Test Project"></noscript>
+</div>
+</div>
+<div class="category__name-and-learn">
+<div class="category__name">Scrum</div>
+<div class="category__start-learning">
+Start Learning
+<icon class="icon icon-arrow-thin-right"></icon>
+</div>
+</div>
+</a>
+<a class="category" href="/git/git-tutorial/">
+<div class="category__icon">
+<div class="category__icon--wrapper">
+<icon class="devicon-git-plain colored"></icon>
+</div>
+</div>
+<div class="category__name-and-learn">
+<div class="category__name">Git</div>
+<div class="category__start-learning">
+Start Learning
+<icon class="icon icon-arrow-thin-right"></icon>
+</div>
+</div>
+</a>
+<a class="category" href="/protractor-tutorial/">
+<div class="category__icon">
+<div class="category__icon--wrapper">
+<img data-cfsrc="/static/images/logo/protractor.png" class="Protractor Logo" style="display:none;visibility:hidden;"><noscript><img src="/static/images/logo/protractor.png" class="Protractor Logo"></noscript>
+</div>
+</div>
+<div class="category__name-and-learn">
+<div class="category__name">Protractor</div>
+<div class="category__start-learning">
+Start Learning
+<icon class="icon icon-arrow-thin-right"></icon>
+</div>
+</div>
+</a>
+<a class="category" href="/selenium-webdriver/selenium-tutorial/">
+<div class="category__icon">
+<div class="category__icon--wrapper">
+<img data-cfsrc="/static/images/logo/selenium.png" alt="Selenium Logo" style="display:none;visibility:hidden;"><noscript><img src="/static/images/logo/selenium.png" alt="Selenium Logo"></noscript>
+</div>
+</div>
+<div class="category__name-and-learn">
+<div class="category__name">Selenium</div>
+<div class="category__start-learning">
+Start Learning
+<icon class="icon icon-arrow-thin-right"></icon>
+</div>
+</div>
+</a>
+<a class="category" href="/rest-assured-tutorial/">
+<div class="category__icon">
+<div class="category__icon--wrapper">
+<img data-cfsrc="/static/images/logo/rest-assured.png" alt="Rest Assured Logo" style="display:none;visibility:hidden;"><noscript><img src="/static/images/logo/rest-assured.png" alt="Rest Assured Logo"></noscript>
+</div>
+</div>
+<div class="category__name-and-learn">
+<div class="category__name">Rest Assured</div>
+<div class="category__start-learning">
+Start Learning
+<icon class="icon icon-arrow-thin-right"></icon>
+</div>
+</div>
+</a>
+<a class="category" href="https://www.toolsqa.com/postman/postman-tutorial/">
+<div class="category__icon">
+<div class="category__icon--wrapper">
+<img data-cfsrc="/static/images/logo/postman.png" alt="Postman Logo" style="display:none;visibility:hidden;"><noscript><img src="/static/images/logo/postman.png" alt="Postman Logo"></noscript>
+</div>
+</div>
+<div class="category__name-and-learn">
+<div class="category__name">Postman</div>
+<div class="category__start-learning">
+Start Learning
+<icon class="icon icon-arrow-thin-right"></icon>
+</div>
+</div>
+</a>
+<a class="category" href="https://www.toolsqa.com/cucumber-tutorial/">
+<div class="category__icon">
+<div class="category__icon--wrapper">
+<icon class="devicon-cucumber-plain colored"></icon>
+</div>
+</div>
+<div class="category__name-and-learn">
+<div class="category__name">Cucumber</div>
+<div class="category__start-learning">
+Start Learning
+<icon class="icon icon-arrow-thin-right"></icon>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+<img src="/static/images/svgs/blob-background.svg" alt class="d-none d-lg-block blob-cloud">
+</div>
+<div class="latest-articles-and-popular-articles">
+<div class="container-fluid">
+<div class="row latest-articles-and-popular-articles__heading-and-btn">
+<div class="col-12 col-sm-auto">
+<div class="heading__articles">Articles</div>
+</div>
+<div class="col-12 col-sm-auto ml-sm-auto">
+<div class="btn-group ml-auto latest-articles-and-popular-articles__btn-group">
+<a href="/articles" class="btn btn-border active">Latest Articles</a>
+</div>
+</div>
+</div>
+<div class="latest-articles">
+<div class="row">
+<div class="col-12">
+<div class="latest-articles__grid">
+<a class="article" href="/playwrite/software-testing/introduction-to-the-playwright">
+<img data-cfsrc="/static/images/logo/reader.jpg" alt="Introduction to the Playwright Framework" class="article__featured-image" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/logo/reader.jpg" alt="Introduction to the Playwright Framework" class="article__featured-image" /></noscript>
+<div class="article__title">Introduction to the Playwright Framework</div>
+<div class="article__description">What is Playwright framework and why does it exists today? Explore scenarios where Playwright works as a savior for a tester.</div>
+</a>
+<a class="article" href="/katalon-studio/ai-in-software-testing">
+<img data-cfsrc="/static/images/logo/reader.jpg" alt="AI in software testing" class="article__featured-image" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/logo/reader.jpg" alt="AI in software testing" class="article__featured-image" /></noscript>
+<div class="article__title">AI in software testing</div>
+<div class="article__description"></div>
+</a>
+<a class="article" href="/testrigor/integrations-in-testrigor">
+<img data-cfsrc="/gallery/TestRigor/Enhancing Test Automation with testRigor Integrations.jpg" alt="Enhancing Test Automation with testRigor Integrations" class="article__featured-image" style="display:none;visibility:hidden;" /><noscript><img src="/gallery/TestRigor/Enhancing Test Automation with testRigor Integrations.jpg" alt="Enhancing Test Automation with testRigor Integrations" class="article__featured-image" /></noscript>
+<div class="article__title">Enhancing Test Automation with testRigor Integrations</div>
+<div class="article__description">What are integrations in testRigor? How to integrate a third-party application in testRigor with live example.</div>
+</a>
+<a class="article" href="/testrigor/how-to-test-file-upload-functionality-using-testrigor">
+<img data-cfsrc="/gallery/TestRigor/How to test file upload functionality using testRigor.jpg" alt="How to test file upload functionality using testRigor?" class="article__featured-image" style="display:none;visibility:hidden;" /><noscript><img src="/gallery/TestRigor/How to test file upload functionality using testRigor.jpg" alt="How to test file upload functionality using testRigor?" class="article__featured-image" /></noscript>
+<div class="article__title">How to test file upload functionality using testRigor?</div>
+<div class="article__description">Why we need to test file upload? How can we test file upload functionality using testRigor without writing any code.</div>
+</a>
+<a class="article" href="/testrigor/testrigor-tutorial">
+<img data-cfsrc="/gallery/TestRigor/testRigor Tutorial.jpg" alt="testRigor Tutorial" class="article__featured-image" style="display:none;visibility:hidden;" /><noscript><img src="/gallery/TestRigor/testRigor Tutorial.jpg" alt="testRigor Tutorial" class="article__featured-image" /></noscript>
+<div class="article__title">testRigor Tutorial</div>
+<div class="article__description">In this tutorial, you&#x27;ll learn how to automate with testRigor from creating test cases and performing validation to advancing features.</div>
+</a>
+<a class="article" href="/testrigor/automated-mobile-testing-in-testrigor">
+<img data-cfsrc="/gallery/TestRigor/Automated Mobile Testing in testRigor.jpg" alt="Automated Mobile Testing in testRigor" class="article__featured-image" style="display:none;visibility:hidden;" /><noscript><img src="/gallery/TestRigor/Automated Mobile Testing in testRigor.jpg" alt="Automated Mobile Testing in testRigor" class="article__featured-image" /></noscript>
+<div class="article__title">Automated Mobile Testing in testRigor</div>
+<div class="article__description">What is mobile app testing and mobile web testing? How to perform autoamted mobile app testing on testRigor without programming?</div>
+</a>
+<a class="article" href="/testrigor/how-to-handle-web-tables-using-testrigor">
+<img data-cfsrc="/gallery/TestRigor/How to Handle web tables using testRigor.jpg" alt="How to handle web tables using testRigor?" class="article__featured-image" style="display:none;visibility:hidden;" /><noscript><img src="/gallery/TestRigor/How to Handle web tables using testRigor.jpg" alt="How to handle web tables using testRigor?" class="article__featured-image" /></noscript>
+<div class="article__title">How to handle web tables using testRigor?</div>
+<div class="article__description">What are web tables and why are they important in testing? How to test web tables using testRigor test automation platform?</div>
+</a>
+<a class="article" href="/testrigor/reusable-rules-in-testrigor">
+<img data-cfsrc="/gallery/TestRigor/Reusable Rules in testRigor.jpg" alt="Reusable Rules in testRigor" class="article__featured-image" style="display:none;visibility:hidden;" /><noscript><img src="/gallery/TestRigor/Reusable Rules in testRigor.jpg" alt="Reusable Rules in testRigor" class="article__featured-image" /></noscript>
+<div class="article__title">Reusable Rules in testRigor</div>
+<div class="article__description">What are reusable rules in testRigor? When do we need to use them and how can we create reusable rules in our test suite?</div>
+</a>
+<a class="article" href="/testrigor/test-case-recorder-in-testrigor-using-chrome-extension">
+<img data-cfsrc="/gallery/TestRigor/Test Case Recorder in testRigor using Chrome Extension.jpg" alt="Test Case Recorder in testRigor using Chrome Extension" class="article__featured-image" style="display:none;visibility:hidden;" /><noscript><img src="/gallery/TestRigor/Test Case Recorder in testRigor using Chrome Extension.jpg" alt="Test Case Recorder in testRigor using Chrome Extension" class="article__featured-image" /></noscript>
+<div class="article__title">Test Case Recorder in testRigor using Chrome Extension</div>
+<div class="article__description">Learn about recording test cases using the testRigor test case recorder and testRigor extension with demo of installing it in Chrome browser.</div>
+</a>
+<a class="article" href="/testrigor/global-variables-and-data-sets-in-testrigor-data-driven-testing">
+<img data-cfsrc="/gallery/TestRigor/Global Variables and Data Sets in testRigor Data-driven testing.jpg" alt="Global Variables &amp; Data Sets" class="article__featured-image" style="display:none;visibility:hidden;" /><noscript><img src="/gallery/TestRigor/Global Variables and Data Sets in testRigor Data-driven testing.jpg" alt="Global Variables &amp; Data Sets" class="article__featured-image" /></noscript>
+<div class="article__title">Global Variables &amp; Data Sets</div>
+<div class="article__description">What are global variables in testRigor? How do they help? How to create data sets in testRigor and perform data-driven testing with them?</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="subscribe">
+<div class="container-fluid">
+<div class="row">
+<div class="col-12">
+<div class="subscribe__container">
+<div class="row align-items-md-center">
+<div class="col-12 col-sm-6 order-sm-1">
+<img src="/static/images/svgs/subscriber.svg" class="subscribe__rockstar" />
+</div>
+<div class="col-12 col-sm-6 order-sm-0">
+<div class="subscribe__why">Keep yourself up to date</div>
+<div class="subscribe__input--wrapper">
+<input type="email" id="subscriber-email" class="subscribe__email" placeholder="Your email" />
+<button class="subscribe__email--submit">Subscribe</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="youtube">
+<div class="container-fluid">
+<div class="row">
+<div class="col-12">
+<div class="youtube__promote d-flex flex-column align-items-center">
+<div class="youtube__watch col-auto">
+<img alt="Youtube Logo" data-cfsrc="/static/images/logo/youtube.jpg" style="display:none;visibility:hidden;" /><noscript><img alt="Youtube Logo" src="/static/images/logo/youtube.jpg" /></noscript>
+</div>
+<img class="youtube__channel--icon col-auto" data-cfsrc="/static/images/logo/tools-qa-channel.jpg" alt="ToolsQA Youtube Channel icon" style="display:none;visibility:hidden;" /><noscript><img class="youtube__channel--icon col-auto" src="/static/images/logo/tools-qa-channel.jpg" alt="ToolsQA Youtube Channel icon" /></noscript>
+<div class="youtube__channel--info">Tools QA - Destination for QA professionals</div>
+<a href="https://www.youtube.com/channel/UCSVljVzYbFphBtHvJgwMLsg" target="_blank" class="btn btn-youtube">+ Subscribe</a>
+<div class="row youtube__courses">
+<div class="col-12 col-sm-4">
+<a href="https://www.youtube.com/watch?v=mlarZ4qINkk&list=PLbwZ_0ncMaxi9xvnBnTtvWhM5qekmdDf9" target="_blank" class="youtube__course">
+<img data-cfsrc="/static/images/youtube-courses/git-crash-course.jpeg" class="youtube__course--snip" alt="Git Crash Course Snip" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/youtube-courses/git-crash-course.jpeg" class="youtube__course--snip" alt="Git Crash Course Snip" /></noscript>
+<icon class="icon-youtube"></icon>
+</a>
+</div>
+<div class="col-12 col-sm-4">
+<a href="https://www.youtube.com/watch?v=F73JZ5PO10c&list=PLbwZ_0ncMaxhxqy80oNgB3NiJBw8G4pYO&ab_channel=ToolsQA-DestinationforQAprofessionals" target="_blank" class="youtube__course">
+<img data-cfsrc="/static/images/youtube-courses/post-man-crash-course.jpeg" class="youtube__course--snip" alt="Postman Crash Course Snip" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/youtube-courses/post-man-crash-course.jpeg" class="youtube__course--snip" alt="Postman Crash Course Snip" /></noscript>
+<icon class="icon-youtube"></icon>
+</a>
+</div>
+<div class="col-12 col-sm-4">
+<a href="https://www.youtube.com/watch?v=25NAEM9Y6NY&list=PLbwZ_0ncMaxhB43YQKv9SjyrfbZCOYxX3&ab_channel=ToolsQA-DestinationforQAprofessionals" target="_blank" class="youtube__course">
+<img data-cfsrc="/static/images/youtube-courses/rest-assured-crash-course.jpeg" class="youtube__course--snip" alt="Rest Assured Crash Course Snip" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/youtube-courses/rest-assured-crash-course.jpeg" class="youtube__course--snip" alt="Rest Assured Crash Course Snip" /></noscript>
+<icon class="icon-youtube"></icon>
+</a>
+</div>
+</div>
+<div class="youtube__link">
+To view more go to our
+<a class="youtube__link--go" target="_blank" href="https://www.youtube.com/channel/UCSVljVzYbFphBtHvJgwMLsg/playlists">Youtube Channel</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="testimonials">
+<div class="container-fluid">
+<div class="row">
+<div class="col-12">
+<div class="testimonials__heading">Checkout what our Students say about us!</div>
+</div>
+</div>
+<div class="row align-items-md-center">
+<div class="col-12 col-md-6">
+<div class="testimonials__from">
+<div class="testimonials__from--first-row">
+<img src="/static/images/testimonials/raveesh-rai.webp" class="active" alt="Raveesh" />
+<img data-cfsrc="/static/images/testimonials/serghei.jpeg" alt="Seghei" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/testimonials/serghei.jpeg" alt="Seghei" /></noscript>
+<img data-cfsrc="/static/images/testimonials/jeremy.jpeg" alt="Jeremy" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/testimonials/jeremy.jpeg" alt="Jeremy" /></noscript>
+</div>
+<div class="testimonials__from--second-row">
+<img data-cfsrc="/static/images/testimonials/vitali.jpeg" alt="Vitali" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/testimonials/vitali.jpeg" alt="Vitali" /></noscript>
+<img data-cfsrc="/static/images/testimonials/amit.jpeg" alt="Amit" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/testimonials/amit.jpeg" alt="Amit" /></noscript>
+<img data-cfsrc="/static/images/testimonials/sweta.jpeg" alt="Sweta" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/testimonials/sweta.jpeg" alt="Sweta" /></noscript>
+<img data-cfsrc="/static/images/testimonials/vijay.jpeg" alt="Vijay" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/testimonials/vijay.jpeg" alt="Vijay" /></noscript>
+</div>
+<div class="testimonials__from--third-row">
+<img data-cfsrc="/static/images/testimonials/linh-tran.jpeg" alt="Linh" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/testimonials/linh-tran.jpeg" alt="Linh" /></noscript>
+<img data-cfsrc="/static/images/testimonials/andrew-tilston.jpeg" alt="Andrew" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/testimonials/andrew-tilston.jpeg" alt="Andrew" /></noscript>
+<img data-cfsrc="/static/images/testimonials/mihai-sarlea.jpeg" alt="Mihai" style="display:none;visibility:hidden;" /><noscript><img src="/static/images/testimonials/mihai-sarlea.jpeg" alt="Mihai" /></noscript>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6">
+<div class="row">
+<div class="col-12">
+<div class="testimonial__content active visible">
+<div class="testimonial__content--from">Raveesh Rai – India (Exp- 8Yrs)</div>
+<div class="testimonial__content--text">It was an excellent training. The trainer had very
+in-depth knowledge and was able to handle any of the questions asked spontaneously at
+point of time during the complete training course. In depth coverage of Framework
+Design. And Yes, I am still learning to implement the framework by learning through the
+videos.
+</div>
+</div>
+<div class="testimonial__content">
+<div class="testimonial__content--from">Serghei Mardar – Canada (Exp- 3Yrs)</div>
+<div class="testimonial__content--text">I am Completely satisfied with the training provided
+by ToolsQA. This course allowed me to learn Selenium Webdriver from scratch. I am
+comfortable in building framework using Data Access, Logger, Page Object Model, TestNG
+Tests.
+</div>
+</div>
+<div class="testimonial__content">
+<div class="testimonial__content--from">Jeremy T Springfield – USA (Exp -2Yrs)</div>
+<div class="testimonial__content--text">This class has been a great foundation in Selenium
+concepts. It has prepared me well for our companies roll out of automated testing. The
+time delay aspect. I have yet to be able to attend a class live, but with all the
+resources available online(Videos, PPT, Code, Practice Exercises), I feel like I haven’t
+missed a beat!
+</div>
+</div>
+<div class="testimonial__content">
+<div class="testimonial__content--from">Vitali Dambajev – Estonia (Exp – 7Yrs)</div>
+<div class="testimonial__content--text">Excellent. I feel more confident now. I was always
+hesitant to take online classes as I heard that they are more basic level. But Sandeep’s
+class is really good and it is very practical. Its a well organised training and I am
+confident enough to create automation framework in selenium.
+</div>
+</div>
+<div class="testimonial__content">
+<div class="testimonial__content--from">Amit Mathur – USA (Exp -12Yrs)</div>
+<div class="testimonial__content--text">For me it was excellent exposure to the automation
+testing technology, I was very impressed by the set curriculum and the teaching method,
+sessions are very well laid out and meet the right needs for candidates with less to no
+knowledge, which gives a great opportunity for any one to learn it from bare bones
+knowledge.
+It gave me huge learning and it was exceeding my expectation.
+</div>
+</div>
+<div class="testimonial__content">
+<div class="testimonial__content--from">Sweta Kanyal – IND (Exp 5+ Yrs)</div>
+<div class="testimonial__content--text">I am quite confident on writing automation
+frameworks and have better understanding of JAVA ,TestNG and POM. I like the way the
+course is structured and taught us. I can design frameworks now by my own. I can
+automate any web based application and write POM and framework for the same.
+</div>
+</div>
+<div class="testimonial__content">
+<div class="testimonial__content--from">Vijai Kotehal – USA (Exp 8Yrs)</div>
+<div class="testimonial__content--text">The experience was amazing. Very detail explanation
+of concepts. Fundamentals were made to understand clearly and assignments given after
+every class which made me clear in understanding concepts.
+I am fresher in automation area can able to build framework based on the assignment
+given and the classes undergone.
+</div>
+</div>
+<div class="testimonial__content">
+<div class="testimonial__content--from">Linh Tran – US (Exp 15 Yrs)</div>
+<div class="testimonial__content--text">The program was absolutely amazing. I liked every
+session which gave by my instructor, Lakshay Sharma. .He has a solid knowledge about
+Selenium which help student able to build the framework by ourself. He encouraged
+everyone to ask any question whenever a topic is not clear and patiently to answer them
+until student get it
+</div>
+</div>
+<div class="testimonial__content">
+<div class="testimonial__content--from">Andrew Tilston – UK (Exp 14 Yrs)</div>
+<div class="testimonial__content--text">
+<p>I can highly recommend Lakshay, both as a teacher
+and as a person. When I did my research a few months back with regards to the best
+tool
+to use to assist me with test automation in Selenium, it was Lakshay’s ToolsQA
+website
+that stood out to me, as I liked the way it explained things right from the
+beginning in
+a format that was easy to follow.</p>
+<p>I then joined up for the online courses which I am gradually working my way through
+and
+have found them to be superb. Not only can I go back and view the courses, but
+Lakshay
+sets code assignments which allowed me to “get my hands dirty” and get coding.</p>
+<p>Furthermore, whenever I have needed any advice or had any questions I’ve been able to
+go
+to Lakshay and every single time he has been happy to help.</p>
+<p>So…..yes, I would highly recommend Lakshay and his ToolsQA website as a must have
+learning to for Selenium.</p>
+</div>
+</div>
+<div class="testimonial__content">
+<div class="testimonial__content--from">Mihai Sarlea – Romania (Exp 8 Yrs)</div>
+<div class="testimonial__content--text">
+<p>TI’d like to recommend Lakshay’s excellent work in
+putting together the ToolsQA’s course on Selenium.</p>
+<p>Although I’m well past beginner level, I learnt a lot of useful info during the almost 2
+months of relaxed and well-distilled web training and, after boiling it all down on my
+side, added a bunch of neat new methods / functions to my framework.</p>
+<p>There’s been a lot work put into the ToolsQA initiative and I feel like my money was
+well spent.</p>
+<p>I’d recommend Lakshay both as a teacher and (a safe assumption) professionally any time!</p>
+</div>
+</div>
+</div>
+<div class="col-12">
+<div class="row testimonials__controls">
+<div class="col-auto pr-0">
+<button class="btn btn-circle previous">
+<icon class="icon-previous"></icon>
+</button>
+</div>
+<div class="col-auto pl-2">
+<button class="btn btn-circle next">
+<icon class="icon-next"></icon>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> <div class="gdpr-alert">
+<div class="container">
+<div class="row">
+<div class="col-auto pl-0">
+This website uses cookies to improve your experience. We'll assume you're ok with this, but you can
+opt-out if you wish.
+</div>
+<div class="col-auto">
+<a href="#" id="view-gdpr-policy">Cookie Policy</a>
+</div>
+<div class="col-auto pr-0">
+<button id="accept-cookie-policy">Accept</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="left-circle d-none d-md-block"></div>
+<div class="container-fluid">
+<div class="top-circle"></div>
+<div class="row contact-us-row align-items-center">
+<div class="col-12 col-md-6 col-lg-6 col-xl-6 ask-question-wrapper">
+<div class="have-any-questions text-white text-capitalize">Have any
+question ?</div>
+<div class="contact-us">Contact us anytime.</div>
+</div>
+<div class="col-12 col-md-6 col-lg-6 col-xs-6">
+<div class="contact-details-wrapper">
+<div class="row">
+<div class="col-12 col-lg-6 contact-detail-email">
+<div class="contact-legend text-uppercase">Send us a message:</div>
+<div class="contact-detail email"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="03707673736c717743776c6c6f7072622d606c6e">[email&#160;protected]</a></div>
+</div>
+<div class="col-12 col-lg-6">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row links-wrapper">
+<div class="col-12 col-sm-6 col-lg-3">
+<div class="links-heading text-uppercase text-white">SITE LINKS</div>
+<ul class="links">
+<li><a href="/categories" class="d-inline-block">Tutorials</a></li>
+<li><a href="/selenium-training?q=footer" class="d-inline-block">Training</a></li>
+<li><a href="https://demoqa.com" target="_blank" class="d-inline-block">Demo Website</a></li>
+<li><a href="https://www.linkedin.com/company/9458062/" target="_blank" class="d-inline-block">Team</a></li>
+<li><a href="/sitemap.xml" class="d-inline-block">Sitemap</a></li>
+</ul>
+</div>
+<div class="col-12 col-sm-6 col-lg-3">
+<div class="links-heading text-uppercase text-white">Popular Tutorials</div>
+<ul class="links">
+<li><a href="/selenium-webdriver/selenium-tutorial/">Selenium</a></li>
+<li><a href="/rest-assured-tutorial">Rest Assured</a></li>
+<li><a href="/postman/postman-tutorial/">Postman</a></li>
+<li><a href="/cucumber-tutorial">Cucumber</a></li>
+<li><a href="/software-testing/istqb-foundation-level/">ISTQB</a></li>
+<li><a href="/agile/agile-scrum-tutorial/">Scrum</a></li>
+<li><a href="/git/git-tutorial/">Git</a></li>
+</ul>
+</div>
+<div class="col-12 col-sm-6 col-lg-3">
+<div class="links-heading text-uppercase text-white">Recent Tutorials</div>
+<ul class="links">
+<li><a href="/testproject-tutorial">Test Project</a></li>
+<li><a href="/katalon-studio-tutorial">Katalon</a></li>
+<li><a href="/cypress-tutorial">Cypress</a></li>
+<li><a href="/protractor-tutorial">Protractor</a></li>
+<li><a href="/python-tutorial">Python</a></li>
+<li><a href="/javascript/javascript-tutorial/">JavaScript</a></li>
+</ul>
+</div>
+<div class="col-12 col-sm-6 col-lg-3">
+<div class="links-heading text-uppercase text-white">Other Articles</div>
+<ul class="links">
+<li><a href="/software-testing/software-testing-tutorial/" class="d-inline-block">Software Testing</a></li>
+<li><a href="/appium-studio/appium-studio-tutorial/" class="d-inline-block">Appium</a></li>
+<li><a href="/java/junit-framework/junit-introduction/" class="d-inline-block">JUnit</a></li>
+<li><a href="/maven/maven-introduction/" class="d-inline-block">Maven</a></li>
+<li><a href="/java/java-tutorial/" class="d-inline-block">Java</a></li>
+<li><a href="/katalon-studio-tutorial" class="d-inline-block">Katalon</a></li>
+</ul>
+</div>
+</div>
+<div class="row find-us-row text-white justify-content-center align-items-center">
+<div class="col-12 col-lg-auto find-us-text text-white find-us-text">Find
+Us:</div>
+<div class="col-6 col-sm-4 col-md-3 col-lg-auto">
+<a class="page-link-wrapper d-block" href="https://www.facebook.com/tools.qa">
+<icon class="icon-facebook visit-profile-icon d-inline-flex justify-content-center align-items-center">
+</icon>
+<span class="profile-type">Facebook</span>
+</a>
+</div>
+<div class="col-6 col-sm-4 col-md-3 col-lg-auto">
+<a class="page-link-wrapper d-block" href="https://twitter.com/toolsqa">
+<icon class="icon-twitter visit-profile-icon d-inline-flex justify-content-center align-items-center">
+</icon>
+<span class="profile-type">Twitter</span>
+</a>
+</div>
+<div class="col-6 col-sm-4 col-md-3 col-lg-auto">
+<a class="page-link-wrapper d-block" href="https://www.linkedin.com/company/toolsqa/">
+<icon class="icon-linkedin visit-profile-icon d-inline-flex justify-content-center align-items-center">
+</icon>
+<span class="profile-type">Linkedin</span>
+</a>
+</div>
+<div class="col-6 col-sm-4 col-md-3 col-lg-auto">
+<a class="page-link-wrapper d-block" href="https://www.youtube.com/channel/UCSVljVzYbFphBtHvJgwMLsg/playlists">
+<icon class="icon-youtube visit-profile-icon d-inline-flex justify-content-center align-items-center">
+</icon>
+<span class="profile-type">Youtube</span>
+</a>
+</div>
+</div>
+<div class="row terms-row">
+<div class="col-12 static-pages-link text-center">
+© 2013-2024
+ToolsQA.com | All rights reserved
+</div>
+</div>
+</div>
+<div class="version" aria-hidden="true">
+1.16.1
+</div>
+</footer>
+<div class="overlay"></div>
+<nav class="mega-menu">
+<div class="container-fluid mega-menu--container">
+<div class="row mega-menu--wrapper">
+<div class="col-4 first-generation--wrapper">
+<div class="first-generation">
+<ul><li><div><span>QA Practices</span><icon class="icon-next"></icon></div><ul><li><a href="/software-testing/istqb-foundation-level/" title="ISTQB Preparation">ISTQB Preparation</a></li><li><a href="/software-testing/software-testing-tutorial/" title="Software Testing">Software Testing</a></li><li><a href="/agile/agile-scrum-tutorial/" title="Agile & Scrum">Agile & Scrum</a></li></ul></li><li><div><span>Front-End Testing Automation</span><icon class="icon-next"></icon></div><ul><li><a href="/cypress-tutorial/" title="Cypress">Cypress</a></li><li><a href="/protractor-tutorial/" title="Protractor">Protractor</a></li><li><a href="/selenium-webdriver/selenium-tutorial/" title="Selenium in Java">Selenium in Java</a></li><li><a href="/testproject-tutorial/" title="TestProject">TestProject</a></li><li><a href="/katalon-studio-tutorial/" title="Katalon Studio">Katalon Studio</a></li><li><a href="/selenium-c-sharp/" title="Selenium C Sharp">Selenium C Sharp</a></li></ul></li><li><div><span>Back-End Testing Automation</span><icon class="icon-next"></icon></div><ul><li><a href="/rest-assured-tutorial/" title="Rest Assured">Rest Assured</a></li><li><a href="/postman/postman-tutorial/" title="Postman">Postman</a></li><li><a href="/soapui/soapui-tutorial/" title="SOAPUI">SOAPUI</a></li></ul></li><li><div><span>Mobile Testing Automation</span><icon class="icon-next"></icon></div><ul><li><a href="/appium-studio/appium-studio-tutorial/" title="Appium Studio">Appium Studio</a></li></ul></li><li><div><span>Frameworks & Libraries</span><icon class="icon-next"></icon></div><ul><li><a href="/cucumber-tutorial/" title="Cucumber">Cucumber</a></li><li><a href="/testng/testng-tutorial/" title="TestNG">TestNG</a></li><li><a href="/specflow/specflow-tutorial/" title="SpecFlow">SpecFlow</a></li><li><a href="/junit/junit-tutorial/" title="Junit">Junit</a></li><li><a href="/extent-report/extent-report-for-cucumber-testng-project/" title="Extent report - Cucumber (TestNG)">Extent report - Cucumber (TestNG)</a></li></ul></li><li><div><span>DevOps Tools</span><icon class="icon-next"></icon></div><ul><li><a href="/maven/maven-introduction/" title="Maven">Maven</a></li><li><a href="/git/git-tutorial/" title="Git">Git</a></li><li><a href="/docker/docker-tutorial/" title="Docker">Docker</a></li></ul></li><li><div><span>Cross Browser Testing</span><icon class="icon-next"></icon></div><ul><li><a href="/lambdatest-tutorial/" title="LambdaTest">LambdaTest</a></li><li><a href="/cross-browser-testing/what-is-cross-browser-testing/" title="Cross Browser Testing - Smartbear">Cross Browser Testing - Smartbear</a></li><li><a href="/browserling/cross-browser-testing-with-browserling/" title="Browserling">Browserling</a></li></ul></li><li><div><span>Non-Functional Testing</span><icon class="icon-next"></icon></div><ul><li><a href="/jmeter-tutorial/" title="JMeter">JMeter</a></li></ul></li><li><div><span>Programming Language</span><icon class="icon-next"></icon></div><ul><li><a href="/java/java-tutorial/" title="Java">Java</a></li><li><a href="/data-structures/data-structures-tutorial/" title="Data Structures">Data Structures</a></li><li><a href="/python-tutorial/" title="Python">Python</a></li><li><a href="/javascript/javascript-tutorial/" title="JavaScript">JavaScript</a></li></ul></li></ul>
+</div>
+</div>
+<div class="col-4">
+<div class="second-generation">
+<ul></ul>
+</div>
+</div>
+<div class="col-4">
+<div class="third-generation">
+<ul></ul>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<div class="hamburger-menu-overlay">
+<ul class="hamburger-menu__links d-lg-none">
+<li><a href="/">Home</a></li>
+<li><a href="/selenium-training?q=menu">Selenium Training</a></li>
+<li><a href="https://demoqa.com" rel="noopener" target="_blank">Demo Site</a></li>
+<li><a href="/">About</a></li>
+</ul>
+</div>
+<div class="modal micromodal-slide" id="cookie-policy-modal" aria-hidden="true">
+<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+<header class="modal__header">
+<h2 class="modal__title" id="modal-1-title">
+Privacy Overview
+</h2>
+<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+</header>
+<main class="modal__content" id="modal-1-content">
+<div class="container pl-0 pr-0">
+<div class="row">
+<div class="col-12">
+<p>
+This website uses cookies to improve your experience while you navigate through the
+website. Out of these cookies, the cookies that are categorized as necessary are stored
+on your browser as they are as essential for the working of basic functionalities of the
+website. We also use third-party cookies that help us analyze and understand how you use
+this website. These cookies will be stored in your browser only with your consent. You
+also have the option to opt-out of these cookies. But opting out of some of these
+cookies may have an effect on your browsing experience.
+</p>
+</div>
+</div>
+<div class="row">
+<div class="col-12">
+<div class="well mb-3">
+<div class="row">
+<div class="col p-2">
+<p class="m-0 ml-4">Necessary</p>
+</div>
+<div class="col-auto ml-auto p-2">
+<p class="m-0 mr-4">Always Enabled</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-12">
+<p class="mx-3">
+Necessary cookies are absolutely essential for the website to function properly. This
+category only includes cookies that ensures basic functionalities and security features
+of the website. These cookies do not store any personal information.
+</p>
+</div>
+</div>
+</div>
+</main>
+<div class="modal__footer">
+<div class="row">
+<div class="col-auto ml-auto">
+<button class="modal__btn gdpr-accept" data-micromodal-close aria-label="Close this dialog window">Save And Accept
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> <div class="modal micromodal-slide" id="advertisement-modal" aria-hidden="true">
+<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+<main class="modal__content position-relative" id="modal-1-content">
+<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+<a href id="advertisement-url">
+<img id="advertisement-image" style="width: 100%" />
+</a>
+</main>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/static/javascript/home-page.min.js" type="8ba08e3c31f4c85933d4d8bc-text/javascript"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="8ba08e3c31f4c85933d4d8bc-|49" defer></script></body>
+</html>

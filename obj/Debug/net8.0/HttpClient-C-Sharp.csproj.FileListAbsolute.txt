@@ -1,0 +1,14 @@
+C:\VisualStudioCode\C#\HttpClient-C-Sharp\bin\Debug\net8.0\HttpClient-C-Sharp.exe
+C:\VisualStudioCode\C#\HttpClient-C-Sharp\bin\Debug\net8.0\HttpClient-C-Sharp.deps.json
+C:\VisualStudioCode\C#\HttpClient-C-Sharp\bin\Debug\net8.0\HttpClient-C-Sharp.runtimeconfig.json
+C:\VisualStudioCode\C#\HttpClient-C-Sharp\bin\Debug\net8.0\HttpClient-C-Sharp.dll
+C:\VisualStudioCode\C#\HttpClient-C-Sharp\bin\Debug\net8.0\HttpClient-C-Sharp.pdb
+C:\VisualStudioCode\C#\HttpClient-C-Sharp\obj\Debug\net8.0\HttpClient-C-Sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\VisualStudioCode\C#\HttpClient-C-Sharp\obj\Debug\net8.0\HttpClient-C-Sharp.AssemblyInfoInputs.cache
+C:\VisualStudioCode\C#\HttpClient-C-Sharp\obj\Debug\net8.0\HttpClient-C-Sharp.AssemblyInfo.cs
+C:\VisualStudioCode\C#\HttpClient-C-Sharp\obj\Debug\net8.0\HttpClient-C-Sharp.csproj.CoreCompileInputs.cache
+C:\VisualStudioCode\C#\HttpClient-C-Sharp\obj\Debug\net8.0\HttpClient-C-Sharp.dll
+C:\VisualStudioCode\C#\HttpClient-C-Sharp\obj\Debug\net8.0\refint\HttpClient-C-Sharp.dll
+C:\VisualStudioCode\C#\HttpClient-C-Sharp\obj\Debug\net8.0\HttpClient-C-Sharp.pdb
+C:\VisualStudioCode\C#\HttpClient-C-Sharp\obj\Debug\net8.0\HttpClient-C-Sharp.genruntimeconfig.cache
+C:\VisualStudioCode\C#\HttpClient-C-Sharp\obj\Debug\net8.0\ref\HttpClient-C-Sharp.dll
